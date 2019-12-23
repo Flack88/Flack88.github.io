@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1">
+    <title>text</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400i&display=swap" rel="stylesheet">
+    <link href="rdclr.home.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="headFootMenu">
+        <a class="logo_a" href="https://redcollar.ru/">
+            <img src="img/logo.svg" alt="red collar">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="text.html">о нас</a></li>
+                <li><a href="merch.html">мерч</a></li>
+                <li><a href="contact.html">контакты</a></li>
+            </ul>
+        </nav>
+        <div class="barMenu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div class="homeArrow">
+        <div class="arrowHome">
+            <a href="index.html"><img src="img/arrow.svg" alt=""></a>
+        </div>
+    </div>
+    <main>
+        <h1>О нас</h1>
+        <p>
+            Серия офлайн-мероприятий от Red Collar — короткие лекции
+            и живые обсуждения прямо у нас в офисе. Минимум гостей, неформальная обстановка. Ждём дома!
+        </p>
+        <h2>Как к нам попасть</h2>
+        <p>
+            Всё просто — будь в числе первых, кто запишется на встречу после анонса даты.
+            Количество мест объявляем вместе с анонсом.
+        </p>
+        <h3>Где с нами пообщаться</h3>
+        <p>
+            Чат в телеграме, в котором общаемся, отвечаем на вопросы,
+            публикуем анонсы мероприятий в первую очередь
+            <a href="https://t.me/rdclr.home">ttttt.me/rdclr_home</a>
+        </p>
+        <blockquote>
+            Разберём всё по полочкам
+        </blockquote>
+        <h2>Наша команда</h2>
+        <p>
+            Обладаем обширными компетенциями и экспертными
+            навыками в таких сферах как:
+        </p>
+        <ol>
+            <li>Менеджмент</li>
+            <li>Дизайн</li>
+            <li>Frontend</li>
+            <li>Backend</li>
+        </ol>
+        <p>
+            Узнаем что актуально прямо сейчас, какие направления развиваются,
+            как самому начать изучать сферу, наработать нужные навыки и войти в профессию.
+        </p>
+        <h2>Фотоотчет</h2>
+        <!-- <div class="sliser">
+            <div class="slideshow-container">
+                <div class="slider-buttons">
+                    <button class="slider-prev"><img src="../img/leftArrow.svg"></button>
+                    <button class="slider-next"><img src="../img/rightArrow.svg"></button>
+                </div>
+                <div class="slider-wapper fade">
+                    <div class="numbertext"><span class="red">1</span>/3</div>
+                    <img src="../img/foto.svg" style="width: 100%" alt="">
+                </div>
+                <div class="slider-wapper fade">
+                    <div class="numbertext"><span class="red">2</span>/3</div>
+                    <img src="../img/foto2.svg" style="width: 100%" alt="">
+                </div>
+                <div class="slider-wapper fade">
+                    <div class="numbertext"><span class="red">3</span>/3</div>
+                    <img src="../img/foto3.svg" style="width: 100%" alt="">
+                </div>
+            <a class="prev" onclick='plusSlides(-1)'>&#10094</a>
+            <a class="next" onclick='plusSlides(1)'>&#10095</a>
+            </div>
+        </div> -->
+        <div class="slider">
+
+            <!-- <div class="numbertext"><span class="red">1</span>/3</div>
+            <div class="numbertext"><span class="red">2</span>/3</div>
+            <div class="numbertext"><span class="red">3</span>/3</div> -->
+
+            <div class="window-slider">
+                <div class="slider-wrapper fade">
+                    <div class="slide"><img src="img/foto.svg" alt="foto"></div>
+                    <div class="slide"><img src="img/foto2.svg" alt="foto"></div>
+                    <div class="slide"><img src="img/foto3.svg" alt="foto"></div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button class="slider-prev"><img src="img/leftArrow.svg"></button>
+            <button class="slider-next"><img src="img/rightArrow.svg"></button>
+        </div>
+        <h2>Последние спикеры</h2>
+        <p>
+            Имено они читают лекции на RDCLR.HOME! А если не читают,
+            то находятся где-то в офисе и им можно задать любые вопросы.
+        </p>
+        <ul>
+            <li>Иван Марков</li>
+            <li>Иван Вялов</li>
+            <li>Надежда Кочеткова</li>
+            <li>Артём Фёдоров</li>
+            <li>Андрей Глевчук</li>
+        </ul>
+        <h2>Мы находимся</h2>
+        <div class="weAreLocated">
+            <img src="img/foto2.svg" alt=" we are located">
+            <p>ул. Текстильщиков, 5б, Воронеж</p>
+        </div>
+        <div class="dropdown">
+
+            <div class="headingDropdown">
+                Записаться на RDCLR.HOME
+            </div>
+
+            <form action="rdclr" id="frm">
+
+                <div class="dropdownForm">
+
+                        <select id="" name="choise">
+                            <option value="0">Выбор</option>
+                            <option value="1">Студент</option>
+                            <option value="2">Начинающий дизайнер</option>
+                            <option value="3">Практикующий дизайнер</option>
+                            <option value="4">Хочу освоить другую профессию</option>
+                        </select>
+
+                    <input type="email" placeholder="E-mail" name="mail">
+
+                    <input type="tel" placeholder="Телефон" name="tel">
+
+                    <textarea placeholder="Комментарий" name="coment"></textarea>
+
+                    <label class='checkbox'>Даю согласие на обработку своих <em>персональных данных</em>
+                            <input type="checkbox" checked>
+                            <span class="checkmark checkhover"></span>
+                    </label>
+
+                    <button class='tosend' type="submit">ОТПРАВИТЬ</button>    
+                </div>
+            </form>
+        </div>
+        <div class="upArrow">
+            <a href=""><img src="img/upArrow.svg" alt=""></a>
+        </div>
+    </main>
+    <footer class="headFootMenu">
+        <div class="messengerMenu">
+            <a href="https://www.vk.com/">VK</a>
+            <a href="https://www.facebook.com/">FB</a>
+            <a href="https://www.instagram.com/">IG</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="text.html">о нас</a></li>
+                <li><a href="merch.html">мерч</a></li>
+                <li><a href="contact.html">контакты</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="popup">
+        <div class="overlay"></div>
+        <div class="popup-inner">
+            <div class="popup-exit">
+            </div>
+            <div class="messageFieldSent">
+                <h2>Поздравляем!</h2>
+                <p>Вы записались</p>
+                <p>на RDCLR.HOME</p>
+            </div>
+            <div class="messageFieldError">
+                <h2>Ошибка!</h2>
+                <p>Проверьте корректность</p>
+                <p>вводимых данные</p>
+            </div>
+        </div>
+    </div>
+    <script src="rdclr.home.js"></script>
+</body>
+</html>

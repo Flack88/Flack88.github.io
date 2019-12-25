@@ -347,17 +347,16 @@ header.hidden{
     justify-content: flex-start;
     position: relative;
     margin-bottom: 30px;
-    /* z-index: 2; */
 }
 .headingRDCLR img{
     width: 100%;
     position: relative;
-    z-index: 2;
+/*     z-index: 2; */
 }
 .shadRDCLR{
     max-width: 1074px;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
 }
 .headingHOME {
     width: 100%;

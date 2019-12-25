@@ -347,9 +347,17 @@ header.hidden{
     justify-content: flex-start;
     position: relative;
     margin-bottom: 30px;
+    /* z-index: 2; */
 }
 .headingRDCLR img{
     width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.shadRDCLR{
+    max-width: 1074px;
+    position: absolute;
+    z-index: 1;
 }
 .headingHOME {
     width: 100%;
@@ -358,6 +366,7 @@ header.hidden{
     position: relative;
 }
 .headingHOMEinner{
+    position: relative;
     max-width: 871px;
     width: 100%;
     display: flex;
@@ -367,6 +376,11 @@ header.hidden{
 }
 .headingHOME img {
     width: 100%;
+}
+.shadHOME {
+    position: absolute;
+    z-index: 1;
+    /* left: 0; */
 }
 .headingHOMEtext p{
     max-width: 744px;

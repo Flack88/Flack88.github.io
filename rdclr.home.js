@@ -231,9 +231,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // let wH = window.innerHeight;
 
     window.addEventListener('mousemove', function(event) {
-        let x = (event.clientX - window.innerWidth / 2) / window.innerWidth * -25;
+        let x = (event.clientX - window.innerWidth / 2) / window.innerWidth * -50;
     
-        let y = (event.clientY - window.innerHeight / 2) / window.innerWidth * -25;
+        let y = (event.clientY - window.innerHeight / 2) / window.innerWidth * -50;
     
         shadow[0].style.transform = 'translate(' + x + 'px, ' + y + 'px)'
         shadow[1].style.transform = 'translate(' + x + 'px, ' + y + 'px)'
